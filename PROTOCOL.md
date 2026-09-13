@@ -2,6 +2,11 @@
 
 Same engine on all three domains. Only the rules skin changes.
 
+Readarap turns music into a new genre using the songs we love and the subjects we hate.
+The genre is the swap: keep the loved song's cadence, rhyme scheme, and syllable count; write the hated subject into the blanks. Cadence stays. The lyric changes. That is the take.
+
+Do not ship the loved song as a master recording. Ship the map and the swap.
+
 ## 1. Name Flo
 Break any name into syllable chunks and lock them to a beat.
 - Clap or tap each syllable.
@@ -17,13 +22,13 @@ Phonics on the beat. Letter name, letter sound, then CVC / blends.
 - Unlock: Little Readarapper tier (about 75 percent lyric-swap readiness).
 
 ## 3. Freestyle Karaoke for Learning
-Take a favorite clean (or cleaned) song. Keep cadence, rhyme scheme, and syllable count. Swap lyrics.
+Take a favorite clean (or cleaned) song. Keep cadence, rhyme scheme, and syllable count. Swap lyrics onto the subject they hate or would not open.
 - 50 percent swap = Baby
 - 75 percent swap = Little
 - 100 percent swap = Big Readarapper / Mr. Bigg
-- Scoring pillars: Syllable Lock + Rhyme Graph + Cadence Key.
+- Scoring pillars: Syllable Lock + Rhyme Graph + Cadence Key + Fact Check.
 - Currency: RapCoins.
 
 ## Progression
 Name Flo -> Alphabet Buss Down -> Teacher-modeled karaoke -> Student karaoke -> 100 percent Real Rapper.
-Teacher must complete the track before assigning it.
+Teacher must complete the track before assigning it (Private School Cypher and pilots). Street Cypher has no teacher gate.
