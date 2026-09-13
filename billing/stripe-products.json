@@ -1,0 +1,14 @@
+{
+  "currency": "usd",
+  "grace_days": 14,
+  "plans": [
+    {"code": "free_cipher", "product_name": "ReadaRap Free Cipher", "seats": 1, "self_serve": true, "prices": []},
+    {"code": "readarapper", "product_name": "ReadaRap Readarapper", "seats": 1, "self_serve": true, "prices": [{"lookup_key": "readarapper_month", "unit_amount": 1200, "interval": "month"}, {"lookup_key": "readarapper_year", "unit_amount": 9600, "interval": "year"}]},
+    {"code": "family", "product_name": "ReadaRap Family", "seats": 4, "self_serve": true, "prices": [{"lookup_key": "family_month", "unit_amount": 2000, "interval": "month"}, {"lookup_key": "family_year", "unit_amount": 16800, "interval": "year"}]},
+    {"code": "classroom", "product_name": "ReadaRap Classroom", "seats": 35, "self_serve": true, "prices": [{"lookup_key": "classroom_month", "unit_amount": 5900, "interval": "month"}, {"lookup_key": "classroom_year", "unit_amount": 49000, "interval": "year"}]},
+    {"code": "extra_seat", "product_name": "ReadaRap Extra Seat", "seats": 1, "self_serve": true, "prices": [{"lookup_key": "extra_seat_month", "unit_amount": 200, "interval": "month"}]},
+    {"code": "school", "product_name": "ReadaRap School License", "seats": 100, "self_serve": false, "collection": "send_invoice", "prices": [{"lookup_key": "school_year_12", "unit_amount": 1200, "interval": "year"}, {"lookup_key": "school_year_10", "unit_amount": 1000, "interval": "year"}, {"lookup_key": "school_year_8", "unit_amount": 800, "interval": "year"}]},
+    {"code": "street_plus", "product_name": "ReadaRap Street+", "seats": 1, "self_serve": true, "audience": "street", "prices": [{"lookup_key": "street_plus_month", "unit_amount": 800, "interval": "month"}]},
+    {"code": "academy", "product_name": "ReadaRap Academy Enrollment", "seats": 1, "self_serve": false, "audience": "academy", "prices": []}
+  ]
+}

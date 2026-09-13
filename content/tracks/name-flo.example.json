@@ -1,0 +1,16 @@
+{
+  "id": "name-flo-core",
+  "module": "name_flo",
+  "title": "Name Flo",
+  "coach": "miss-little",
+  "grade_band": "K-12",
+  "standards": ["RF.K.2", "RF.1.2"],
+  "rating": "G",
+  "bpm": 80,
+  "audiences": ["k12", "street", "academy"],
+  "pack": "core",
+  "prompt": "Break the learner name into syllable chunks and lock each chunk to the beat.",
+  "pass": {"weighted": 70, "syllable_min": 60},
+  "coins_on_pass": 15,
+  "unlocks": ["module:alphabet_buss_down"]
+}
