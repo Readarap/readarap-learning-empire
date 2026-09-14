@@ -12,5 +12,12 @@
   "prompt": "Break the learner name into syllable chunks and lock each chunk to the beat.",
   "pass": {"weighted": 70, "syllable_min": 60},
   "coins_on_pass": 15,
-  "unlocks": ["module:alphabet_buss_down"]
+  "unlocks": ["module:alphabet_buss_down"],
+  "pencil_stage": {
+    "type": "symbiotogram",
+    "description": "Write name, flip 180°, discover second word. Same letter count, different meaning.",
+    "examples": ["mom-wow", "deal-leap", "true-false"],
+    "master_reference": "John Langdon",
+    "next_stages": ["tablet_mavis_beacon", "studio_recording"]
+  }
 }
