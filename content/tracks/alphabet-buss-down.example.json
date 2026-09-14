@@ -9,13 +9,14 @@
   "bpm": 90,
   "audiences": ["k12", "street", "academy"],
   "pack": "core",
-  "prompt": "Mama and baby chant letter name + sound in harmony. Beat Lords drop the bass at 3:33, scatter the letters. They call across the void and match by sound. Woo-lah reconnects them. Chop and screw phonemes so the child can catch them.",
+  "prompt": "52-card memory match (26 upper + 26 lower). Kids match all pairs first. Beat Lords drop the bass at 3:33, scatter the letters with exaggerated faces. Silence is the wound. Calling by sound. Woo-lah reconnects. Letters resync to cards, then child pulls name letters into Name Flo. Chop and screw phonemes so the child can catch them.",
   "phases": [
-    {"name": "harmony", "sound": "A, ah, A, ah…", "duration_bars": 8},
+    {"name": "match", "sound": "flip ooh/yay, find pairs", "duration_bars": 16, "cards": 52, "effect": "all 26 pairs matched before bass"},
     {"name": "buss_down", "sound": "boom x15", "duration_bars": 4, "effect": "scatter + exaggerated faces"},
     {"name": "silence", "sound": "—", "duration_bars": 2, "effect": "the wound"},
     {"name": "calling", "sound": "little a: A / big A: ah", "duration_bars": 8, "effect": "search by sound"},
-    {"name": "woo_lah", "sound": "celebration", "duration_bars": 4, "effect": "unlock truth + words form"}
+    {"name": "woo_lah", "sound": "celebration", "duration_bars": 4, "effect": "unlock truth + words form"},
+    {"name": "name_flow", "sound": "resync to cards, pull name letters", "duration_bars": 4, "effect": "handoff to Name Flo"}
   ],
   "letter_sound_states": [
     {"letter": "A", "mama_name": "ay", "baby_sound": "ah", "keyword": "apple", "action": "open wide", "toggle": null, "harmony": "ay, ah", "chaos_variants": ["ay~", "ah…", "ah-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
@@ -35,7 +36,7 @@
     {"letter": "O", "mama_name": "oh", "baby_sound": "ah", "keyword": "octopus", "action": "squirt", "toggle": null, "harmony": "oh, ah", "chaos_variants": ["oh~", "ah…", "ah-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
     {"letter": "P", "mama_name": "pee", "baby_sound": "puh", "keyword": "pig", "action": "snort", "toggle": null, "harmony": "pee, puh", "chaos_variants": ["pee~", "puh…", "puh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
     {"letter": "Q", "mama_name": "cue", "baby_sound": "kwuh", "keyword": "queen", "action": "wave", "toggle": null, "harmony": "cue, kwuh", "chaos_variants": ["cue~", "kwuh…", "kwuh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
-    {"letter": "R", "mama_Lname": "ar", "baby_sound": "ruh", "keyword": "rain", "action": "pour", "toggle": null, "harmony": "ar, ruh", "chaos_variants": ["ar~", "ruh…", "ruh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
+    {"letter": "R", "mama_name": "ar", "baby_sound": "ruh", "keyword": "rain", "action": "pour", "toggle": null, "harmony": "ar, ruh", "chaos_variants": ["ar~", "ruh…", "ruh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
     {"letter": "S", "mama_name": "ess", "baby_sound": "suh", "keyword": "sun", "action": "shine", "toggle": null, "harmony": "ess, suh", "chaos_variants": ["ess~", "suh…", "suh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
     {"letter": "T", "mama_name": "tee", "baby_sound": "tuh", "keyword": "top", "action": "spin", "toggle": null, "harmony": "tee, tuh", "chaos_variants": ["tee~", "tuh…", "tuh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
     {"letter": "U", "mama_name": "you", "baby_sound": "uh", "keyword": "umbrella", "action": "open", "toggle": null, "harmony": "you, uh", "chaos_variants": ["you~", "uh…", "uh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
@@ -47,7 +48,8 @@
   ],
   "match_events": [
     {"pair": "A/a", "trigger": "sound_match", "reward": "woo_lah", "coins": 5},
-    {"pair": "any", "trigger": "sound_match", "reward": "word_blend", "coins": 3}
+    {"pair": "any", "trigger": "sound_match", "reward": "word_blend", "coins": 3},
+    {"pair": "name_letters", "trigger": "name_flow", "reward": "name_flo_handoff", "coins": 10}
   ],
   "pass": {"weighted": 70, "syllable_min": 60, "sound_match_min": 80},
   "coins_on_pass": 25,
@@ -62,6 +64,13 @@
     "Big": {"swap_pct": 100, "description": "child freestyles 100% of the lyric"}
   },
   "scoring_weights": {"syllable": 0.35, "rhyme": 0.25, "cadence": 0.30, "fact": 0.10},
-  "unlocks": ["module:freestyle_karaoke_50", "module:freestyle_karaoke_75", "module:freestyle_karaoke_100"],
+  "unlocks": ["module:freestyle_karaoke_50", "module:freestyle_karaoke_75", "module:freestyle_karaoke_100", "module:name_flo"],
+  "connectors": {
+    "progression_matrix": "K-12 x A-Z, word length by grade band",
+    "pipeline": ["pencil_rough_draft", "mavis_beacon_tablet", "studio_recording"],
+    "library": "human_voice_only, buddy_system_for_accessibility",
+    "pilot": "12_week_adult_teacher_training",
+    "graduation": "12_disc_set, hard_drive_daily, vinyl_at_finish"
+  },
   "visual": "letter-shape characters with arms/legs, exaggerated faces, rim-lit high-contrast 3D, Her YT Story / His YT Story / Zack D Films"
 }
