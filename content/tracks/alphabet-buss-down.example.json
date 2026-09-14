@@ -1,0 +1,62 @@
+{
+  "id": "alphabet-buss-down-core",
+  "module": "alphabet_buss_down",
+  "title": "Alphabet Buss Down",
+  "coach": "dr-baby",
+  "grade_band": "K-12",
+  "standards": ["RF.K.2", "RF.1.2", "RF.1.3"],
+  "rating": "G",
+  "bpm": 90,
+  "audiences": ["k12", "street", "academy"],
+  "pack": "core",
+  "prompt": "Mama and baby chant letter name + sound in harmony. Beat Lords drop the bass at 3:33, scatter the letters. They call across the void and match by sound. Woo-lah reconnects them. Chop and screw phonemes so the child can catch them.",
+  "phases": [
+    {"name": "harmony", "sound": "A, ah, A, ah…", "duration_bars": 8},
+    {"name": "buss_down", "sound": "boom x15", "duration_bars": 4, "effect": "scatter + exaggerated faces"},
+    {"name": "silence", "sound": "—", "duration_bars": 2, "effect": "the wound"},
+    {"name": "calling", "sound": "little a: A / big A: ah", "duration_bars": 8, "effect": "search by sound"},
+    {"name": "woo_lah", "sound": "celebration", "duration_bars": 4, "effect": "unlock truth + words form"}
+  ],
+  "letter_sound_states": [
+    {"letter": "A", "mama_name": "ay", "baby_sound": "ah", "keyword": "apple", "action": "open wide", "toggle": null, "harmony": "ay, ah", "chaos_variants": ["ay~", "ah…", "ah-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
+    {"letter": "B", "mama_name": "bee", "baby_sound": "buh", "keyword": "ball", "action": "bounce", "toggle": null, "harmony": "bee, buh", "chaos_variants": ["bee~", "buh…", "buh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
+    {"letter": "C", "mama_name": "see", "baby_sound": "kuh", "keyword": "cat", "action": "pounce", "toggle": "soft=suh", "harmony": "see, kuh", "chaos_variants": ["see~", "kuh…", "kuh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
+    {"letter": "D", "mama_name": "dee", "baby_sound": "duh", "keyword": "dog", "action": "dig", "toggle": null, "harmony": "dee, duh", "chaos_variants": ["dee~", "duh…", "duh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
+    {"letter": "E", "mama_name": "ee", "baby_sound": "eh", "keyword": "egg", "action": "crack", "toggle": null, "harmony": "ee, eh", "chaos_variants": ["ee~", "eh…", "eh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
+    {"letter": "F", "mama_name": "eff", "baby_sound": "fuh", "keyword": "fish", "action": "swim", "toggle": null, "harmony": "eff, fuh", "chaos_variants": ["eff~", "fuh…", "fuh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
+    {"letter": "G", "mama_name": "jee", "baby_sound": "guh", "keyword": "goat", "action": "butt", "toggle": "soft=juh", "harmony": "jee, guh", "chaos_variants": ["jee~", "guh…", "guh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
+    {"letter": "H", "mama_name": "aitch", "baby_sound": "huh", "keyword": "hat", "action": "tip", "toggle": null, "harmony": "aitch, huh", "chaos_variants": ["aitch~", "huh…", "huh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
+    {"letter": "I", "mama_name": "eye", "baby_sound": "ih", "keyword": "igloo", "action": "melt", "toggle": null, "harmony": "eye, ih", "chaos_variants": ["eye~", "ih…", "ih-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
+    {"letter": "J", "mama_name": "jay", "baby_sound": "juh", "keyword": "jump", "action": "leap", "toggle": null, "harmony": "jay, juh", "chaos_variants": ["jay~", "juh…", "juh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
+    {"letter": "K", "mama_name": "kay", "baby_sound": "kuh", "keyword": "kite", "action": "soar", "toggle": null, "harmony": "kay, kuh", "chaos_variants": ["kay~", "kuh…", "kuh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
+    {"letter": "L", "mama_name": "ell", "baby_sound": "luh", "keyword": "lion", "action": "roar", "toggle": null, "harmony": "ell, luh", "chaos_variants": ["ell~", "luh…", "luh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
+    {"letter": "M", "mama_name": "em", "baby_sound": "muh", "keyword": "moon", "action": "glow", "toggle": null, "harmony": "em, muh", "chaos_variants": ["em~", "muh…", "muh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
+    {"letter": "N", "mama_name": "en", "baby_sound": "nuh", "keyword": "nest", "action": "build", "toggle": null, "harmony": "en, nuh", "chaos_variants": ["en~", "nuh…", "nuh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
+    {"letter": "O", "mama_name": "oh", "baby_sound": "ah", "keyword": "octopus", "action": "squirt", "toggle": null, "harmony": "oh, ah", "chaos_variants": ["oh~", "ah…", "ah-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
+    {"letter": "P", "mama_name": "pee", "baby_sound": "puh", "keyword": "pig", "action": "snort", "toggle": null, "harmony": "pee, puh", "chaos_variants": ["pee~", "puh…", "puh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
+    {"letter": "Q", "mama_name": "cue", "baby_sound": "kwuh", "keyword": "queen", "action": "wave", "toggle": null, "harmony": "cue, kwuh", "chaos_variants": ["cue~", "kwuh…", "kwuh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
+    {"letter": "R", "mama_name": "ar", "baby_sound": "ruh", "keyword": "rain", "action": "pour", "toggle": null, "harmony": "ar, ruh", "chaos_variants": ["ar~", "ruh…", "ruh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
+    {"letter": "S", "mama_name": "ess", "baby_sound": "suh", "keyword": "sun", "action": "shine", "toggle": null, "harmony": "ess, suh", "chaos_variants": ["ess~", "suh…", "suh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
+    {"letter": "T", "mama_name": "tee", "baby_sound": "tuh", "keyword": "top", "action": "spin", "toggle": null, "harmony": "tee, tuh", "chaos_variants": ["tee~", "tuh…", "tuh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
+    {"letter": "U", "mama_name": "you", "baby_sound": "uh", "keyword": "umbrella", "action": "open", "toggle": null, "harmony": "you, uh", "chaos_variants": ["you~", "uh…", "uh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
+    {"letter": "V", "mama_name": "vee", "baby_sound": "vuh", "keyword": "van", "action": "drive", "toggle": null, "harmony": "vee, vuh", "chaos_variants": ["vee~", "vuh…", "vuh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
+    {"letter": "W", "mama_name": "double-you", "baby_sound": "wuh", "keyword": "water", "action": "splash", "toggle": null, "harmony": "double-you, wuh", "chaos_variants": ["double-you~", "wuh…", "wuh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
+    {"letter": "X", "mama_name": "ex", "baby_sound": "ks", "keyword": "box", "action": "close", "toggle": null, "harmony": "ex, ks", "chaos_variants": ["ex~", "ks…", "ks-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
+    {"letter": "Y", "mama_name": "why", "baby_sound": "yuh", "keyword": "yellow", "action": "paint", "toggle": null, "harmony": "why, yuh", "chaos_variants": ["why~", "yuh…", "yuh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
+    {"letter": "Z", "mama_name": "zee", "baby_sound": "zuh", "keyword": "zebra", "action": "stripe", "toggle": null, "harmony": "zee, zuh", "chaos_variants": ["zee~", "zuh…", "zuh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"}
+  ],
+  "match_events": [
+    {"pair": "A/a", "trigger": "sound_match", "reward": "woo_lah", "coins": 5},
+    {"pair": "any", "trigger": "sound_match", "reward": "word_blend", "coins": 3}
+  ],
+  "pass": {"weighted": 70, "syllable_min": 60, "sound_match_min": 80},
+  "coins_on_pass": 25,
+  "tiers": {
+    "Baby": {"threshold": 50, "coins": 10},
+    "Little": {"threshold": 75, "coins": 25},
+    "Big": {"threshold": 100, "coins": 50}
+  },
+  "scoring_weights": {"syllable": 0.35, "rhyme": 0.25, "cadence": 0.30, "fact": 0.10},
+  "unlocks": ["module:freestyle_karaoke_50"],
+  "visual": "letter-shape characters with arms/legs, exaggerated faces, rim-lit high-contrast 3D, Her YT Story / His YT Story / Zack D Films"
+}
