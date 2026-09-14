@@ -35,7 +35,7 @@
     {"letter": "O", "mama_name": "oh", "baby_sound": "ah", "keyword": "octopus", "action": "squirt", "toggle": null, "harmony": "oh, ah", "chaos_variants": ["oh~", "ah…", "ah-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
     {"letter": "P", "mama_name": "pee", "baby_sound": "puh", "keyword": "pig", "action": "snort", "toggle": null, "harmony": "pee, puh", "chaos_variants": ["pee~", "puh…", "puh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
     {"letter": "Q", "mama_name": "cue", "baby_sound": "kwuh", "keyword": "queen", "action": "wave", "toggle": null, "harmony": "cue, kwuh", "chaos_variants": ["cue~", "kwuh…", "kwuh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
-    {"letter": "R", "mama_name": "ar", "baby_sound": "ruh", "keyword": "rain", "action": "pour", "toggle": null, "harmony": "ar, ruh", "chaos_variants": ["ar~", "ruh…", "ruh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
+    {"letter": "R", "mama_Lname": "ar", "baby_sound": "ruh", "keyword": "rain", "action": "pour", "toggle": null, "harmony": "ar, ruh", "chaos_variants": ["ar~", "ruh…", "ruh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
     {"letter": "S", "mama_name": "ess", "baby_sound": "suh", "keyword": "sun", "action": "shine", "toggle": null, "harmony": "ess, suh", "chaos_variants": ["ess~", "suh…", "suh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
     {"letter": "T", "mama_name": "tee", "baby_sound": "tuh", "keyword": "top", "action": "spin", "toggle": null, "harmony": "tee, tuh", "chaos_variants": ["tee~", "tuh…", "tuh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
     {"letter": "U", "mama_name": "you", "baby_sound": "uh", "keyword": "umbrella", "action": "open", "toggle": null, "harmony": "you, uh", "chaos_variants": ["you~", "uh…", "uh-chop"], "face": "wide eyes, stretched mouth, rim-lit 3D", "status": "paired"},
@@ -52,11 +52,16 @@
   "pass": {"weighted": 70, "syllable_min": 60, "sound_match_min": 80},
   "coins_on_pass": 25,
   "tiers": {
-    "Baby": {"threshold": 50, "coins": 10},
-    "Little": {"threshold": 75, "coins": 25},
-    "Big": {"threshold": 100, "coins": 50}
+    "Baby": {"threshold": 50, "coins": 10, "karaoke_swap_pct": 50},
+    "Little": {"threshold": 75, "coins": 25, "karaoke_swap_pct": 75},
+    "Big": {"threshold": 100, "coins": 50, "karaoke_swap_pct": 100}
+  },
+  "freestyle_karaoke": {
+    "Baby": {"swap_pct": 50, "description": "child freestyles 50% of the lyric"},
+    "Little": {"swap_pct": 75, "description": "child freestyles 75% of the lyric"},
+    "Big": {"swap_pct": 100, "description": "child freestyles 100% of the lyric"}
   },
   "scoring_weights": {"syllable": 0.35, "rhyme": 0.25, "cadence": 0.30, "fact": 0.10},
-  "unlocks": ["module:freestyle_karaoke_50"],
+  "unlocks": ["module:freestyle_karaoke_50", "module:freestyle_karaoke_75", "module:freestyle_karaoke_100"],
   "visual": "letter-shape characters with arms/legs, exaggerated faces, rim-lit high-contrast 3D, Her YT Story / His YT Story / Zack D Films"
 }
